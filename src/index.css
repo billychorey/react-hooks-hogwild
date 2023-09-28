@@ -150,3 +150,9 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+
+.hogPen img {
+  width: 300px;
+  max-width: 90%;
+}
