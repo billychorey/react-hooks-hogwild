@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Hogdata from './Hogdata';
 
-function HogCard({ hog, handleShowData }) {
+function HogCard({ hog }) {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -14,7 +14,7 @@ function HogCard({ hog, handleShowData }) {
       <a onClick={toggleVisibility} href="JavaScript:void(0)">
         <img src={hog.image} key={hog.name} alt={hog.name} />
       </a>
-      <Hogdata hog={hog} isVisible={isVisible} handleShowData={handleShowData} />
+      {isVisible && <Hogdata hog={hog} />}
     </div>
   );
 }
