@@ -10,7 +10,7 @@ function HogCard({ hog }) {
 
   return (
     <div className="hogCard">
-      <p>{hog.name}</p>
+      <h3>{hog.name}</h3>
       <a onClick={toggleVisibility} href="JavaScript:void(0)">
         <img src={hog.image} key={hog.name} alt={hog.name} />
       </a>

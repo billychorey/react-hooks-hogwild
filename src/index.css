@@ -156,3 +156,27 @@ ul {
   width: 300px;
   max-width: 90%;
 }
+
+.hogData {
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.nav {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: .75rem;
+  margin: 3rem 0 1.5rem 0;
+}
+
+.nav button {
+  margin-right: .75rem;
+}
+
+.hogCard {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
